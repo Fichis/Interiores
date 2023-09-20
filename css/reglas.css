@@ -29,11 +29,27 @@ body{
 }
 
 #content{
+    margin: 0 auto;
     max-width: 650px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+div img{
+    height: 560px;
 }
 
 .item{
-    
+    padding: 15px;
+    max-width: 210px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 3px 5px #949292;
+}
+.it-img img{
+    height: 180px;
 }
