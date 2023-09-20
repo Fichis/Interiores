@@ -53,3 +53,13 @@ div img{
 .it-img img{
     height: 180px;
 }
+
+#carrito th, #carrito td{
+    border: 1px solid black;
+    padding: 20px;
+}
+#carrito{
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
